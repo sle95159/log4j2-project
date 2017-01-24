@@ -1,0 +1,1 @@
+web: java -Dserver.port=5000 -jar target/log4j2-project.jar
