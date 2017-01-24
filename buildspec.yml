@@ -21,4 +21,6 @@ artifacts:
     - target/log4j2-project.jar
     - .ebextensions/*
     - .ebextensions/scripts/*
-    
+    - .ebextensions/scripts/*
+    - .ebextensions/datadog/*    
+    - .ebextensions/datadog/hooks/*
