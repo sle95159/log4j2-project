@@ -16,7 +16,7 @@ class LogglyConfig:
         if not os.path.exists(loggly_file_path):
             os.system('rm -f configure-linux.sh')
             os.system('wget https://www.loggly.com/install/configure-linux.sh')
-            os.system('sudo bash configure-linux.sh -a sle95159 -u sle95159 -p Borussia123 -s')
+            os.system('sudo bash configure-linux.sh -a  sle95159 -u sle95159 -p Borussia123 -s')
 
 
     def __config_loggly_for_log4j(self):
